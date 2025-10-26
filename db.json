@@ -1,0 +1,107 @@
+{
+  "requests": [
+    {
+      "RequestID": "REQ001",
+      "HospitalName": "Apollo Hospital, Mumbai",
+      "DocName": "Dr. Amit Sharma",
+      "PatientName": "Rajesh Kumar",
+      "PatientAge": 45,
+      "BloodGroup": "O+",
+      "Quantity": 2,
+      "Priority": "Critical",
+      "Phone": "+91 9876543210",
+      "description": "Emergency surgery required",
+      "Status": "Pending",
+      "RequiredBy": "2025-10-27T10:00:00",
+      "SubmittedAt": "2025-10-26T14:30:00"
+    },
+    {
+      "RequestID": "REQ002",
+      "HospitalName": "Fortis Hospital, Delhi",
+      "DocName": "Dr. Priya Mehta",
+      "PatientName": "Sneha Patel",
+      "PatientAge": 32,
+      "BloodGroup": "A+",
+      "Quantity": 1,
+      "Priority": "Normal",
+      "Phone": "+91 9123456789",
+      "description": "Routine blood transfusion",
+      "Status": "Approved",
+      "RequiredBy": "2025-10-28T15:00:00",
+      "SubmittedAt": "2025-10-25T09:15:00"
+    },
+    {
+      "RequestID": "REQ003",
+      "HospitalName": "AIIMS, New Delhi",
+      "DocName": "Dr. Ravi Singh",
+      "PatientName": "Arjun Reddy",
+      "PatientAge": 28,
+      "BloodGroup": "B+",
+      "Quantity": 3,
+      "Priority": "High",
+      "Phone": "+91 9988776655",
+      "description": "Accident victim",
+      "Status": "Fulfilled",
+      "RequiredBy": "2025-10-26T18:00:00",
+      "SubmittedAt": "2025-10-26T12:00:00"
+    }
+  ],
+  "donors": [
+    {
+      "id": 1,
+      "name": "Vikram Malhotra",
+      "email": "vikram@example.com",
+      "phone": "+91 9876543211",
+      "dateOfBirth": "1990-05-15",
+      "bloodGroup": "O+",
+      "gender": "Male",
+      "weight": 70,
+      "lastDonation": "2025-08-15"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "+91 9876543212",
+      "dateOfBirth": "1995-03-20",
+      "bloodGroup": "A+",
+      "gender": "Female",
+      "weight": 55,
+      "lastDonation": "2025-09-01"
+    }
+  ],
+  "inventory": [
+    {
+      "blood_type": "O+",
+      "total_units": 45
+    },
+    {
+      "blood_type": "A+",
+      "total_units": 32
+    },
+    {
+      "blood_type": "B+",
+      "total_units": 28
+    },
+    {
+      "blood_type": "AB+",
+      "total_units": 15
+    },
+    {
+      "blood_type": "O-",
+      "total_units": 12
+    },
+    {
+      "blood_type": "A-",
+      "total_units": 10
+    },
+    {
+      "blood_type": "B-",
+      "total_units": 8
+    },
+    {
+      "blood_type": "AB-",
+      "total_units": 5
+    }
+  ]
+}

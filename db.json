@@ -46,62 +46,86 @@
       "SubmittedAt": "2025-10-26T12:00:00"
     }
   ],
-  "donors": [
-    {
-      "id": 1,
-      "name": "Vikram Malhotra",
-      "email": "vikram@example.com",
-      "phone": "+91 9876543211",
-      "dateOfBirth": "1990-05-15",
-      "bloodGroup": "O+",
-      "gender": "Male",
-      "weight": 70,
-      "lastDonation": "2025-08-15"
-    },
-    {
-      "id": 2,
-      "name": "Priya Sharma",
-      "email": "priya@example.com",
-      "phone": "+91 9876543212",
-      "dateOfBirth": "1995-03-20",
-      "bloodGroup": "A+",
-      "gender": "Female",
-      "weight": 55,
-      "lastDonation": "2025-09-01"
-    }
-  ],
+
   "inventory": [
-    {
-      "blood_type": "O+",
-      "total_units": 45
-    },
-    {
-      "blood_type": "A+",
-      "total_units": 32
-    },
-    {
-      "blood_type": "B+",
-      "total_units": 28
-    },
-    {
-      "blood_type": "AB+",
-      "total_units": 15
-    },
-    {
-      "blood_type": "O-",
-      "total_units": 12
-    },
-    {
-      "blood_type": "A-",
-      "total_units": 10
-    },
-    {
-      "blood_type": "B-",
-      "total_units": 8
-    },
-    {
-      "blood_type": "AB-",
-      "total_units": 5
-    }
+    { "blood_type": "O+", "total_units": 388 },
+    { "blood_type": "A+", "total_units": 287 },
+    { "blood_type": "B+", "total_units": 249 },
+    { "blood_type": "AB+", "total_units": 184 },
+    { "blood_type": "O-", "total_units": 120 },
+    { "blood_type": "A-", "total_units": 109 },
+    { "blood_type": "B-", "total_units": 88 },
+    { "blood_type": "AB-", "total_units": 73 }
+  ],
+
+  "donors": [
+    { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+", "email": "vikram@example.com", "phone": "+91 9876543211", "dateOfBirth": "1990-05-15", "gender": "Male", "weight": 70, "lastDonation": "2025-08-15" },
+    { "id": 2, "name": "Priya Sharma", "hospital": "Fortis", "donation_month": "Jan", "bloodGroup": "A+", "email": "priya@example.com", "phone": "+91 9876543212", "dateOfBirth": "1995-03-20", "gender": "Female", "weight": 55, "lastDonation": "2025-09-01" },
+    { "id": 3, "name": "Ajay Singh", "hospital": "AIIMS", "donation_month": "Feb", "bloodGroup": "O-", "email": "ajay@example.com", "phone": "+91 9876543213", "dateOfBirth": "1988-07-10", "gender": "Male", "weight": 75, "lastDonation": "2025-09-15" },
+    { "id": 4, "name": "Reena Gupta", "hospital": "Nanavati", "donation_month": "Mar", "bloodGroup": "A-", "email": "reena@example.com", "phone": "+91 9876543214", "dateOfBirth": "1992-11-25", "gender": "Female", "weight": 60, "lastDonation": "2025-07-20" }
+  ],
+
+  "hospitals": [
+    { "id": 1, "name": "Apollo" },
+    { "id": 2, "name": "Fortis" },
+    { "id": 3, "name": "AIIMS" },
+    { "id": 4, "name": "Nanavati" },
+    { "id": 5, "name": "Hospital 5" },
+    { "id": 6, "name": "Hospital 6" }
+  ],
+
+  "donationTrends": [
+    { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
+    { "month": "Feb", "donations": 120, "requests": 162, "fulfilled": 130 },
+    { "month": "Mar", "donations": 135, "requests": 181, "fulfilled": 140 },
+    { "month": "Apr", "donations": 140, "requests": 200, "fulfilled": 180 },
+    { "month": "May", "donations": 160, "requests": 220, "fulfilled": 175 },
+    { "month": "Jun", "donations": 155, "requests": 210, "fulfilled": 190 },
+    { "month": "Jul", "donations": 145, "requests": 205, "fulfilled": 185 },
+    { "month": "Aug", "donations": 165, "requests": 215, "fulfilled": 195 },
+    { "month": "Sep", "donations": 170, "requests": 225, "fulfilled": 200 },
+    { "month": "Oct", "donations": 150, "requests": 195, "fulfilled": 180 },
+    { "month": "Nov", "donations": 140, "requests": 190, "fulfilled": 175 },
+    { "month": "Dec", "donations": 160, "requests": 210, "fulfilled": 190 }
+  ],
+
+  "hospitalDonorStats": [
+    { "hospital": "Apollo", "donors": 202 },
+    { "hospital": "Fortis", "donors": 191 },
+    { "hospital": "AIIMS", "donors": 188 },
+    { "hospital": "Nanavati", "donors": 176 },
+    { "hospital": "Hospital 5", "donors": 45 },
+    { "hospital": "Hospital 6", "donors": 67 }
+  ],
+
+  "usagePatterns": [
+    { "hospital": "Apollo", "usage": 203 },
+    { "hospital": "Fortis", "usage": 98 },
+    { "hospital": "AIIMS", "usage": 176 },
+    { "hospital": "Nanavati", "usage": 168 },
+    { "hospital": "Hospital 5", "usage": 120 },
+    { "hospital": "Hospital 6", "usage": 145 }
+  ],
+
+  "requestsByStatusAndHospital": [
+    { "hospital": "Apollo", "pending": 12, "approved": 33, "fulfilled": 60, "rejected": 8 },
+    { "hospital": "Fortis", "pending": 15, "approved": 44, "fulfilled": 51, "rejected": 9 },
+    { "hospital": "AIIMS", "pending": 18, "approved": 38, "fulfilled": 65, "rejected": 7 },
+    { "hospital": "Nanavati", "pending": 10, "approved": 30, "fulfilled": 55, "rejected": 5 },
+    { "hospital": "Hospital 5", "pending": 8, "approved": 20, "fulfilled": 35, "rejected": 3 },
+    { "hospital": "Hospital 6", "pending": 14, "approved": 28, "fulfilled": 45, "rejected": 6 }
+  ],
+
+  "peakUsage": [
+    { "name": "Morning", "value": 25, "color": "#3b82f6" },
+    { "name": "Afternoon", "value": 35, "color": "#10b981" },
+    { "name": "Evening", "value": 25, "color": "#f59e0b" },
+    { "name": "Night", "value": 15, "color": "#8b5cf6" }
+  ],
+
+  "resolutionStatus": [
+    { "name": "Resolved", "value": 68, "color": "#10b981" },
+    { "name": "Pending", "value": 22, "color": "#f59e0b" },
+    { "name": "Escalated", "value": 10, "color": "#ef4444" }
   ]
 }

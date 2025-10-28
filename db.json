@@ -10,10 +10,10 @@
     { "blood_type": "AB-", "total_units": 73 }
   ],
   "hospitals": [
-    { "id": 1, "name": "Apollo", "donorStats": 202, "usage": 203, "pending": 12, "approved": 33, "fulfilled": 60, "rejected": 8 },
-    { "id": 2, "name": "Fortis", "donorStats": 191, "usage": 98, "pending": 15, "approved": 44, "fulfilled": 51, "rejected": 9 },
-    { "id": 3, "name": "AIIMS", "donorStats": 188, "usage": 176, "pending": 18, "approved": 38, "fulfilled": 65, "rejected": 7 },
-    { "id": 4, "name": "Nanavati", "donorStats": 176, "usage": 168, "pending": 10, "approved": 30, "fulfilled": 55, "rejected": 5 }
+    { "id": 1, "name": "Apollo", "donorStats": 202, "usage": 203, "pending": 102, "approved": 33, "fulfilled": 60, "rejected": 8 },
+    { "id": 2, "name": "Fortis", "donorStats": 191, "usage": 98, "pending": 105, "approved": 44, "fulfilled": 51, "rejected": 9 },
+    { "id": 3, "name": "AIIMS", "donorStats": 188, "usage": 176, "pending": 180, "approved": 38, "fulfilled": 65, "rejected": 7 },
+    { "id": 4, "name": "Nanavati", "donorStats": 176, "usage": 168, "pending": 100, "approved": 30, "fulfilled": 55, "rejected": 5 }
   ],
   "analytics": {
     "donationTrends": [
@@ -31,33 +31,5 @@
   },
   "requests": [
     { "RequestID": "REQ001", "HospitalName": "Apollo Hospital, Mumbai" }
-  ],
-  "donors": [
-    { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" }
-  ],
-  "donationFunnel": [
-    { "stage": "Screening", "count": 120 },
-    { "stage": "Eligible", "count": 100 },
-    { "stage": "Donated", "count": 85 }
-  ],
-  "deliveries": [
-    { "hospital": "City Hospital", "value": 40, "color": "#3b82f6" },
-    { "hospital": "Metro Blood Bank", "value": 35, "color": "#ef4444" },
-    { "hospital": "Apollo Clinic", "value": 25, "color": "#fbbf24" }
-  ],
-  "donationStatusData": [
-    { "status": "Successful", "count": 85, "color": "#22c55e" },
-    { "status": "Deferred", "count": 15, "color": "#ef4444" }
-  ],
-  "summary": {
-    "totalDonors": 420,
-    "successful": 85,
-    "unitsCollected": 350,
-    "hospitalPartners": 12
-  },
-  "recentDonorActivity": [
-    { "id": "D001", "name": "Aarav Mehta", "bloodType": "O+", "date": "2025-10-22", "status": "Eligible" },
-    { "id": "D002", "name": "Neha Sharma", "bloodType": "A-", "date": "2025-10-18", "status": "Deferred" },
-    { "id": "D003", "name": "Rohit Verma", "bloodType": "B+", "date": "2025-10-12", "status": "Eligible" }
   ]
-}
+ 

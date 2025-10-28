@@ -10,15 +10,25 @@
     { "blood_type": "AB-", "total_units": 73 }
   ],
   "hospitals": [
-    { "id": 1, "name": "Apollo", "donorStats": 202, "usage": 203, "pending": 102, "approved": 33, "fulfilled": 60, "rejected": 8 },
-    { "id": 2, "name": "Fortis", "donorStats": 191, "usage": 98, "pending": 105, "approved": 44, "fulfilled": 51, "rejected": 9 },
-    { "id": 3, "name": "AIIMS", "donorStats": 188, "usage": 176, "pending": 180, "approved": 38, "fulfilled": 65, "rejected": 7 },
-    { "id": 4, "name": "Nanavati", "donorStats": 176, "usage": 168, "pending": 100, "approved": 30, "fulfilled": 55, "rejected": 5 }
+    { "id": 1, "name": "Apollo", "donorStats": 202, "usage": 203, "pending": 12, "approved": 33, "fulfilled": 60, "rejected": 8 },
+    { "id": 2, "name": "Fortis", "donorStats": 191, "usage": 98, "pending": 15, "approved": 44, "fulfilled": 51, "rejected": 9 },
+    { "id": 3, "name": "AIIMS", "donorStats": 188, "usage": 176, "pending": 18, "approved": 38, "fulfilled": 65, "rejected": 7 },
+    { "id": 4, "name": "Nanavati", "donorStats": 176, "usage": 168, "pending": 10, "approved": 30, "fulfilled": 55, "rejected": 5 }
   ],
   "analytics": {
     "donationTrends": [
       { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
-      { "month": "Feb", "donations": 120, "requests": 162, "fulfilled": 130 }
+      { "month": "Feb", "donations": 120, "requests": 162, "fulfilled": 130 },
+            { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
+
+            { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
+
+            { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
+
+            { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
+      { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
+
+            { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 }
     ],
     "peakUsage": [
       { "name": "Morning", "value": 25, "color": "#3b82f6" },
@@ -30,6 +40,25 @@
     ]
   },
   "requests": [
-    { "RequestID": "REQ001", "HospitalName": "Apollo Hospital, Mumbai" }
+    {
+      "RequestID": "REQ001",
+      "HospitalName": "Apollo Hospital, Mumbai"
+    }
+  ],
+  "donors": [
+    { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+        { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+        { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+
+        { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+    { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+
+        { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+
+        { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" },
+
+        { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" }
+
+
   ]
- 
+}

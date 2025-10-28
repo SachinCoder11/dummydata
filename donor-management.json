@@ -1,0 +1,27 @@
+{
+  "donationFunnel": [
+    { "stage": "Screening", "count": 120 },
+    { "stage": "Eligible", "count": 100 },
+    { "stage": "Donated", "count": 85 }
+  ],
+  "deliveries": [
+    { "hospital": "City Hospital", "value": 40, "color": "#3b82f6" },
+    { "hospital": "Metro Blood Bank", "value": 35, "color": "#ef4444" },
+    { "hospital": "Apollo Clinic", "value": 25, "color": "#fbbf24" }
+  ],
+  "donationStatusData": [
+    { "status": "Successful", "count": 85, "color": "#22c55e" },
+    { "status": "Deferred", "count": 15, "color": "#ef4444" }
+  ],
+  "summary": {
+    "totalDonors": 420,
+    "successful": 85,
+    "unitsCollected": 350,
+    "hospitalPartners": 12
+  },
+  "recentDonorActivity": [
+    { "id": "D001", "name": "Aarav Mehta", "bloodType": "O+", "date": "2025-10-22", "status": "Eligible" },
+    { "id": "D002", "name": "Neha Sharma", "bloodType": "A-", "date": "2025-10-18", "status": "Deferred" },
+    { "id": "D003", "name": "Rohit Verma", "bloodType": "B+", "date": "2025-10-12", "status": "Eligible" }
+  ]
+}

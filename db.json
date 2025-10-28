@@ -36,7 +36,7 @@
     { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" }
   ],
 
-  /* 👇 NEW DATA FOR DONOR MANAGEMENT COMPONENT 👇 */
+  
   "donationFunnel": [
     { "stage": "Screening", "count": 120 },
     { "stage": "Eligible", "count": 100 },

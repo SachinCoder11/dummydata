@@ -19,29 +19,29 @@
     "donationTrends": [
       { "month": "Jan", "donations": 110, "requests": 145, "fulfilled": 120 },
       { "month": "Feb", "donations": 120, "requests": 162, "fulfilled": 130 }
-      // ...more months
+      
     ],
     "peakUsage": [
       { "name": "Morning", "value": 25, "color": "#3b82f6" },
       { "name": "Afternoon", "value": 35, "color": "#10b981" }
-      // ...other times
+      
     ],
     "resolutionStatus": [
       { "name": "Resolved", "value": 68, "color": "#10b981" },
       { "name": "Pending", "value": 22, "color": "#f59e0b" }
-      // ...statuses
+      
     ]
   },
   "requests": [
     {
       "RequestID": "REQ001",
       "HospitalName": "Apollo Hospital, Mumbai",
-      // ...rest of object
+      
     }
-    // ...other requests
+    
   ],
   "donors": [
     { "id": 1, "name": "Vikram Malhotra", "hospital": "Apollo", "donation_month": "Jan", "bloodGroup": "O+" }
-    // ...other donors
+    
   ]
 }
